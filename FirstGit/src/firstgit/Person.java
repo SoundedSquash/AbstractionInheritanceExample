@@ -14,5 +14,6 @@ public class Person {
     public void adoptAnimal() {
         Animal animal = new Animal();
         animal.setAge(5);
+        System.out.println(animal.getAge());
     }
 }

@@ -19,6 +19,8 @@ public class FirstGit {
         System.out.println("Hello Java");
         System.out.println("Hello class");
         System.out.println("New");
+        Person p = new Person();
+        p.adoptAnimal();
     }
 
 }
