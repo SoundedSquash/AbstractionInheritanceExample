@@ -11,4 +11,18 @@ package firstgit;
  */
 public class Animal {
 
+    private int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        if (age < 0 || age > 999) {
+            System.out.println("Bad value");
+        } else {
+            this.age = age;
+        }
+    }
+
 }
