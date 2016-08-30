@@ -18,8 +18,10 @@ public class FirstTry {
         // TODO code application logic here
         String nameLine = "Name:\tWilliam Boyer";
         String mailLine = "E-Mail:\twboyer@my.wctc.edu";
-        
-        System.out.println(nameLine + "\n" + mailLine + "\n");
+
+        System.out.println(nameLine);
+        System.out.println("");
+        System.out.println(mailLine);
     }
-    
+
 }
