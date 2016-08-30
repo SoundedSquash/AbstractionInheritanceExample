@@ -18,11 +18,16 @@ public class Animal {
     }
 
     public void setAge(int age) {
-        if (age < 0 || age > 999) {
-            System.out.println("Bad value");
-        } else {
+        if (validateAge(age)) {
             this.age = age;
         }
     }
 
+    private boolean validateAge(int age) {
+        if (age < 0 || age > 999) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
