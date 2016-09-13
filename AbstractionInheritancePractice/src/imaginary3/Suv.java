@@ -9,6 +9,13 @@ package imaginary3;
  *
  * @author wboyer
  */
-public class Suv {
+public abstract class Suv {
+    //The term "SUV" is still used to describe nearly anything with available all-wheel drive and raised ground clearance.
+    private int seats;
     
+    private void setSeats(int s){
+        if(s > 0 && s < 10){
+            seats = s;
+        }
+    }
 }

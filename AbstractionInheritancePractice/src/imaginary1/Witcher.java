@@ -9,6 +9,17 @@ package imaginary1;
  *
  * @author wboyer
  */
-public class Witcher {
+public abstract class Witcher implements Protagonist {
+    private int monstersSlain;
+    private boolean outOfCombat;
     
+    private void meditate(int hours){
+        if(outOfCombat){
+            //Meditate
+        }
+    }
+    
+    private int getMonstersSlain(){
+        return monstersSlain;
+    }    
 }

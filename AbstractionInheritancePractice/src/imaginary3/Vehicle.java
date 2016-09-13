@@ -9,6 +9,10 @@ package imaginary3;
  *
  * @author wboyer
  */
-public class Vehicle {
+public abstract class Vehicle {
+    private float mph; //44.6
     
+    public void startVehicle(){
+        //Start vehicle.
+    }
 }

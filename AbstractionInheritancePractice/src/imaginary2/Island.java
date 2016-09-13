@@ -5,10 +5,22 @@
  */
 package imaginary2;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author wboyer
  */
-public class Island {
+public abstract class Island {
+    private ArrayList<Object> volcanoes = new ArrayList<Object>();
     
+    private void addVolcano(Object volcano){
+        volcanoes.add(volcano);
+    }
+    
+    public Object getVolcano(int idx){
+        if(idx > 0 && idx < volcanoes.size()){
+            return volcanoes.get(idx);
+        } else return null;
+    };
 }

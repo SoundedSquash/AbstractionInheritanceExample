@@ -9,6 +9,10 @@ package imaginary2;
  *
  * @author wboyer
  */
-public class Berk {
+public class Berk extends Island {
+    private int dragons;
     
+    public void trainDragon(){ //Add Dragon parameter to know what to train.
+        //Train dragon.
+    }
 }

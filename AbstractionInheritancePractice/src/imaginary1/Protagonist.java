@@ -9,6 +9,6 @@ package imaginary1;
  *
  * @author wboyer
  */
-public class Protagonist {
+public interface Protagonist {
     
 }

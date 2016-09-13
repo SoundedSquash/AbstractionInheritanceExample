@@ -9,6 +9,6 @@ package imaginary1;
  *
  * @author wboyer
  */
-public class GeraltOfRivia {
+public class GeraltOfRivia extends Witcher {
     
 }

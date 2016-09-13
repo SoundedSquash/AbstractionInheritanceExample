@@ -9,6 +9,13 @@ package imaginary3;
  *
  * @author wboyer
  */
-public class Warthog {
+public class Warthog extends Suv {
+    private int ammo = 999;
     
+    private void fireGun(){
+        if(ammo>1){
+            ammo--;
+            //Fire gun.
+        }
+    }
 }

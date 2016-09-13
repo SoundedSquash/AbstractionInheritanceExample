@@ -10,7 +10,7 @@ package imaginary2;
  * @author wboyer
  */
 public abstract class Location {
-    float[] coordinates = new float[2];
+    private float[] coordinates = new float[2];
     /**
      * Returns a float array with coordinates.
      * @return float[0]: N, float[1]: W
