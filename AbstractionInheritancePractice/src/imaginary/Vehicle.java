@@ -15,4 +15,8 @@ public abstract class Vehicle {
     public void startVehicle(){
         //Start vehicle.
     }
+    
+    public final float getMph(){
+        return mph;
+    }
 }
