@@ -13,7 +13,7 @@ public abstract class Tree implements Plant {
     private int age; //In days.
     private int trunkDiameter;
     
-    public int getTrunkDiameter(){
+    public final int getTrunkDiameter(){
         return trunkDiameter;
     }
     
@@ -24,7 +24,7 @@ public abstract class Tree implements Plant {
     }
     
     @Override
-    public int getAge(){
+    public final int getAge(){
         return age;
     }
 }

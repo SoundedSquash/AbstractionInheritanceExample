@@ -12,7 +12,7 @@ package real2;
 public abstract class Tree extends Plant {
     private int trunkDiameter;
     
-    public int getTrunkDiameter(){
+    public final int getTrunkDiameter(){
         return trunkDiameter;
     }
 }
