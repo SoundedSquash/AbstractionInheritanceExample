@@ -9,10 +9,8 @@ package real1;
  *
  * @author wboyer
  */
-public abstract class Plant {
-    private int age; //In days.
+public interface Plant {
+    public abstract void setAge(int a);
     
-    public int getAge(){
-        return age;
-    }
+    public abstract int getAge();
 }

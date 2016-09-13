@@ -9,8 +9,12 @@ package real3;
  *
  * @author wboyer
  */
-public interface Animal {
-    public abstract void setAge(int a);
+public class SpruceTree extends Tree {
+    private float resinLeft; //In fluid oz possibly.
     
-    public abstract int getAge();
+    public void tapResin(){
+        //Validate resin left.
+        
+        //Tap resin.
+    }
 }

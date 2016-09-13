@@ -3,17 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package imaginary1;
+package real2;
 
 /**
  *
  * @author wboyer
  */
-public abstract class Protagonist {
-    private String firstName;
-    private String lastName;
+public abstract class Plant {
+    private int age; //In days.
     
-    public String getName(){
-        return firstName + ' ' + lastName;
+    public int getAge(){
+        return age;
     }
 }

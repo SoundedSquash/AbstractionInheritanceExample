@@ -9,14 +9,12 @@ package real2;
  *
  * @author wboyer
  */
-public class HersheysChocolateBar extends ChocolateBar {
-    private int pieces;
+public class SpruceTree extends Tree {
+    private float resinLeft; //In fluid oz possibly.
     
-    public void eatPiece(){
-        //Validate
+    public void tapResin(){
+        //Validate resin left.
         
-        pieces--;
-        
-        //Eat piece.
+        //Tap resin.
     }
 }

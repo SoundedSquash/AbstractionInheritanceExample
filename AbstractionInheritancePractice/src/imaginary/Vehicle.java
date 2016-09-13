@@ -3,19 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package imaginary3;
+package imaginary;
 
 /**
  *
  * @author wboyer
  */
-public class Warthog extends Suv {
-    private int ammo = 999;
+public abstract class Vehicle {
+    private float mph; //44.6
     
-    private void fireGun(){
-        if(ammo>1){
-            ammo--;
-            //Fire gun.
-        }
+    public void startVehicle(){
+        //Start vehicle.
     }
 }

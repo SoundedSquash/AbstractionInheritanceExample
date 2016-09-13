@@ -9,10 +9,22 @@ package real1;
  *
  * @author wboyer
  */
-public abstract class Tree extends Plant {
+public abstract class Tree implements Plant {
+    private int age; //In days.
     private int trunkDiameter;
     
     public int getTrunkDiameter(){
         return trunkDiameter;
+    }
+    
+    @Override
+    public void setAge(int a){
+        //Validate
+        age = a;
+    }
+    
+    @Override
+    public int getAge(){
+        return age;
     }
 }

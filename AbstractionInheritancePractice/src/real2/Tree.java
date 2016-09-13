@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package imaginary2;
+package real2;
 
 /**
  *
  * @author wboyer
  */
-public class Berk extends Island {
-    private int dragons;
+public abstract class Tree extends Plant {
+    private int trunkDiameter;
     
-    public void trainDragon(){ //Add Dragon parameter to know what to train.
-        //Train dragon.
+    public int getTrunkDiameter(){
+        return trunkDiameter;
     }
 }

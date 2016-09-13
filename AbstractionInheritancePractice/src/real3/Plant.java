@@ -9,10 +9,10 @@ package real3;
  *
  * @author wboyer
  */
-public class Cat extends Feline {
-    private int lives = 9;
+public class Plant {
+    private int age; //In days.
     
-    public void hiss(){
-        System.out.println("Hiss!");
+    public int getAge(){
+        return age;
     }
 }
