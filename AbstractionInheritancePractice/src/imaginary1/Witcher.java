@@ -9,7 +9,7 @@ package imaginary1;
  *
  * @author wboyer
  */
-public abstract class Witcher implements Protagonist {
+public abstract class Witcher extends Protagonist {
     private int monstersSlain;
     private boolean outOfCombat;
     

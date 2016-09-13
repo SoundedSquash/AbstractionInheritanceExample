@@ -9,6 +9,12 @@ package real1;
  *
  * @author wboyer
  */
-public class TreeSpruce {
+public class SpruceTree extends Tree {
+    private float resinLeft; //In fluid oz possibly.
     
+    public void tapResin(){
+        //Validate resin left.
+        
+        //Tap resin.
+    }
 }

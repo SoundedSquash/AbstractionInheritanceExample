@@ -12,5 +12,7 @@ package real1;
 public abstract class Plant {
     private int age; //In days.
     
-    
+    public int getAge(){
+        return age;
+    }
 }

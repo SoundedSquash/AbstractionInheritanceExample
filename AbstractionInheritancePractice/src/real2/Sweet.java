@@ -5,10 +5,12 @@
  */
 package real2;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author wboyer
  */
-public class Sweet {
-    
+public interface Sweet {
+    public abstract ArrayList getIngredients();
 }

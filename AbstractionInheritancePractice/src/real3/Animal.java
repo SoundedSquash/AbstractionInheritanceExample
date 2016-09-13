@@ -9,6 +9,8 @@ package real3;
  *
  * @author wboyer
  */
-public class Animal {
+public interface Animal {
+    public abstract void setAge(int a);
     
+    public abstract int getAge();
 }

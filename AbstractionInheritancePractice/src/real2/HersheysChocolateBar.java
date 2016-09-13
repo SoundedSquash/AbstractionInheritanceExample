@@ -9,6 +9,14 @@ package real2;
  *
  * @author wboyer
  */
-public class HersheysChocolateBar {
+public class HersheysChocolateBar extends ChocolateBar {
+    private int pieces;
     
+    public void eatPiece(){
+        //Validate
+        
+        pieces--;
+        
+        //Eat piece.
+    }
 }

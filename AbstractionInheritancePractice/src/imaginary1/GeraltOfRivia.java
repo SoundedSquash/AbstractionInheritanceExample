@@ -10,5 +10,9 @@ package imaginary1;
  * @author wboyer
  */
 public class GeraltOfRivia extends Witcher {
+    private int mutationsAcquired; //Mutations are abilities that are acquired using level-up points.
     
+    public int getMutationsAcquired(){
+        return mutationsAcquired;
+    }
 }

@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author wboyer
  */
-public abstract class Island {
+public abstract class Island extends Location {
     private ArrayList<Object> volcanoes = new ArrayList<Object>();
     
     private void addVolcano(Object volcano){

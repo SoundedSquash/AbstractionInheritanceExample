@@ -9,7 +9,7 @@ package imaginary3;
  *
  * @author wboyer
  */
-public abstract class Suv {
+public abstract class Suv extends Vehicle {
     //The term "SUV" is still used to describe nearly anything with available all-wheel drive and raised ground clearance.
     private int seats;
     

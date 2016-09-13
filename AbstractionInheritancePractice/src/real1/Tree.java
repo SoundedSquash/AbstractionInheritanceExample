@@ -9,6 +9,10 @@ package real1;
  *
  * @author wboyer
  */
-public abstract class Tree {
+public abstract class Tree extends Plant {
+    private int trunkDiameter;
     
+    public int getTrunkDiameter(){
+        return trunkDiameter;
+    }
 }

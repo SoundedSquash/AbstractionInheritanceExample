@@ -9,6 +9,17 @@ package real3;
  *
  * @author wboyer
  */
-public class Feline {
+public abstract class Feline implements Animal {
+    private int age;
     
+    @Override
+    public void setAge(int a){
+        //Validate
+        age = a;
+    }
+    
+    @Override
+    public int getAge(){
+        return age;
+    }
 }

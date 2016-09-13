@@ -9,6 +9,11 @@ package imaginary1;
  *
  * @author wboyer
  */
-public interface Protagonist {
+public abstract class Protagonist {
+    private String firstName;
+    private String lastName;
     
+    public String getName(){
+        return firstName + ' ' + lastName;
+    }
 }
