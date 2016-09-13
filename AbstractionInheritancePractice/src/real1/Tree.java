@@ -3,17 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package firstgit;
+package real1;
 
 /**
  *
  * @author wboyer
  */
-public class Person {
-
-    public void adoptAnimal() {
-        Animal animal = new Animal();
-        animal.setAge(5);
-        System.out.println(animal.getAge());
-    }
+public abstract class Tree {
+    
 }
