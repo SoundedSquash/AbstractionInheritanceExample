@@ -12,7 +12,9 @@ package imaginary;
 public abstract class Vehicle {
     private float mph; //44.6
     
-    public void startVehicle(){
-        //Start vehicle.
+    public abstract void startVehicle();
+    
+    public final float getMph(){
+        return mph;
     }
 }

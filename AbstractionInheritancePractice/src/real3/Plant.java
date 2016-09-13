@@ -12,6 +12,11 @@ package real3;
 public class Plant {
     private int age; //In days.
     
+    public void setAge(int a){
+        //Validate
+        age = a;
+    }
+    
     public final int getAge(){
         return age;
     }

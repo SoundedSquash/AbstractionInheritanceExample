@@ -11,10 +11,14 @@ package real1;
  */
 public abstract class Tree implements Plant {
     private int age; //In days.
-    private int trunkDiameter;
+    private int trunkRadius, trunkHeight;
     
-    public final int getTrunkDiameter(){
-        return trunkDiameter;
+    public final double getTrunkRadius(){
+        return trunkRadius;
+    }
+    
+    public final double getTrunkVolume(){
+        return Math.PI * Math.pow(trunkRadius, 2) * trunkHeight;
     }
     
     @Override

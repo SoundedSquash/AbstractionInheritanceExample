@@ -13,9 +13,16 @@ public class Warthog extends Suv {
     private int ammo = 999;
     
     private void fireGun(){
-        if(ammo>1){
+        if(ammo>1 && hasGunner()){
             ammo--;
             //Fire gun.
         }
+    }
+    
+    private boolean hasGunner(){
+        //Validate that seat 3 (gunner seat) has Person.
+        return true;
+        //else
+        //return false;
     }
 }
