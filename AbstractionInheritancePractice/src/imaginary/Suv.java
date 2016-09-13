@@ -13,9 +13,13 @@ public abstract class Suv extends Vehicle {
     //The term "SUV" is still used to describe nearly anything with available all-wheel drive and raised ground clearance.
     private int seats;
     
-    private void setSeats(int s){
+    public void setSeats(int s){
         if(s > 0 && s < 10){
             seats = s;
         }
+    }
+    
+    public final int getSeats(){
+        return seats;
     }
 }

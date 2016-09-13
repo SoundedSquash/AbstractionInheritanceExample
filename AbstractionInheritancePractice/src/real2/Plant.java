@@ -12,6 +12,11 @@ package real2;
 public abstract class Plant {
     private int age; //In days.
     
+    public void setAge(int a){
+        //Validate
+        age = a;
+    }
+    
     public final int getAge(){
         return age;
     }

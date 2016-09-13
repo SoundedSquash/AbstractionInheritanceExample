@@ -10,9 +10,14 @@ package real3;
  * @author wboyer
  */
 public abstract class Tree extends Plant {
-    private int trunkDiameter;
+    private int age; //In days.
+    private int trunkRadius, trunkHeight;
     
-    public final int getTrunkDiameter(){
-        return trunkDiameter;
+    public final double getTrunkRadius(){
+        return trunkRadius;
+    }
+    
+    public final double getTrunkVolume(){
+        return Math.PI * Math.pow(trunkRadius, 2) * trunkHeight;
     }
 }
