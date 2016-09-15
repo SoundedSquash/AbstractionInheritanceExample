@@ -14,6 +14,11 @@ public abstract class Vehicle {
     
     public abstract void startVehicle();
     
+    public void setMph(int value){
+        //Validate
+        mph = value;
+    }
+    
     public final float getMph(){
         return mph;
     }
